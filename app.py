@@ -25,6 +25,7 @@ def descargar():
             'preferredquality': '192',
         }],
         'outtmpl': 'audio.%(ext)s',
+        'cookiefile': 'cookies.txt'  # 👉 Añade esta línea para usar cookies.txt
     }
 
     try:
